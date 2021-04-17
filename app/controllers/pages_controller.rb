@@ -6,4 +6,7 @@ class PagesController < ApplicationController
 
   def form
   end  
+
+  def alert
+  end
 end
