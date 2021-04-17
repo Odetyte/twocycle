@@ -11,3 +11,23 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@media (max-width: 600px) {
+  .header h1 {
+    color: #bb86fc;
+    background-color: black;
+    text-align: center;
+  }
+
+  body {
+    background-color: black;
+    color: #bb86fc;
+  }
+
+  .body-container {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+  }
+}

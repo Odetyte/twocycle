@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+h1 {
+  font-family: Saira;
+  font-weight: 300;
+  background-color: #262323;
+  color: #bb86fc;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    color: #bb86fc;
+    background-color: black;
+    text-align: center;
+  }
+
+  body {
+    background-color: black;
+    color: #bb86fc;
+  }
+
+  .body-container {
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+  }
+}
