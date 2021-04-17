@@ -11,6 +11,10 @@
     color: #bb86fc;
   }
 
+  span {
+    font-weight: 700;
+  }
+
   .body-container {
     padding-top: 50px;
     text-align: center;
@@ -68,5 +72,12 @@
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
     background-color: #bb86fc;
+  }
+
+  .button {
+    padding-top: 20px;
+    width: 50%;
+    position: relative;
+    display: inline-block;
   }
 }
