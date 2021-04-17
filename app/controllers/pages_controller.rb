@@ -5,11 +5,8 @@ class PagesController < ApplicationController
   end
 
   def form
-<<<<<<< HEAD
-=======
-  end  
+  end
 
   def alert
->>>>>>> master
   end
 end
