@@ -10,3 +10,23 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+.navbar-nav {
+  align-items: flex-end;
+}
+.navbar h1 {
+  font-family: Saira;
+  color: #C4C4C4;
+  font-size: 25px;
+  margin-left: 5rem;
+  margin-top: 0.5em;
+}
+
+.navbar-p p {
+  margin-top: 1em;
+  font-family: Saira;
+  color: #C4C4C4;
+}
+.navbar {
+  background: linear-gradient(to right, #BB86FC, #7300FF);
+}
+
