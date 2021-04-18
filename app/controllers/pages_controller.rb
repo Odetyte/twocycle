@@ -4,8 +4,13 @@ class PagesController < ApplicationController
   def home
   end
 
-  def calendar
-    @calendar
 
+  def calendar
+  end
+
+  def form
+  end
+
+  def alert
   end
 end
