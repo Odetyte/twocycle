@@ -13,4 +13,10 @@ class PagesController < ApplicationController
 
   def alert
   end
+
+  def about
+  end
+
+  def contact
+  end
 end
