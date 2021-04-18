@@ -1,13 +1,13 @@
 <div class="calendar">
-  <h3>When would you like to schedule pickup </h3>
+  <h3>When would you like to schedule pickup?</h3>
   <div class="calendar">
     <div class="calendar__opts">
       <select name="calendar__month" id="calendar__month">
         <option>Jan</option>
         <option>Feb</option>
         <option>Mar</option>
-        <option>Apr</option>
-        <option selected>May</option>
+        <option selected>Apr</option>
+        <option>May</option>
         <option>Jun</option>
         <option>Jul</option>
         <option>Aug</option>
@@ -17,10 +17,10 @@
         <option>Dec</option>
       </select>
       <select name="calendar__year" id="calendar__year">
-        <option>2017</option>
-        <option>2018</option>
         <option>2019</option>
-        <option selected>2020</option>
+        <option>2020</option>
+        <option selected>2021</option>
+        <option>2022</option>
       </select>
     </div>
     <div class="calendar__body">
@@ -53,12 +53,12 @@
         <div class="calendar__date"><span>13</span></div>
         <div class="calendar__date"><span>14</span></div>
         <div class="calendar__date"><span>15</span></div>
-        <div class="calendar__date calendar__date--selected calendar__date--first-date calendar__date--range-start"><span>16</span></div>
-        <div class="calendar__date calendar__date--selected calendar__date--last-date"><span>17</span></div>
-        <div class="calendar__date calendar__date--selected calendar__date--first-date"><span>18</span></div>
-        <div class="calendar__date calendar__date--selected"><span>19</span></div>
-        <div class="calendar__date calendar__date--selected"><span>20</span></div>
-        <div class="calendar__date calendar__date--selected calendar__date--last-date calendar__date--range-end"><span>21</span></div>
+        <div class="calendar__date"><span>16</span></div>
+        <div class="calendar__date"><span>17</span></div>
+        <div class="calendar__date"><span>18</span></div>
+        <div class="calendar__date"><span>19</span></div>
+        <div class="calendar__date"><span>20</span></div>
+        <div class="calendar__date"><span>21</span></div>
         <div class="calendar__date"><span>22</span></div>
         <div class="calendar__date"><span>23</span></div>
         <div class="calendar__date"><span>24</span></div>
@@ -73,7 +73,7 @@
     </div>
     <div class="calendar__buttons">
       <button class="calendar__button calendar__button--grey">Back</button>
-      <button class="calendar__button calendar__button--primary">Apply</button>
+      <%= link_to "Select", form_path, class: "calendar__button calendar__button--primary" %>
     </div>
   </div>
 </div>

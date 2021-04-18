@@ -1,15 +1,21 @@
-.confirm-btn{
-    width: 30%;
-    font-size: 20px;
-    background: linear-gradient(to right, #bb86fc, #7300ff);
-    color: #c4c4c4;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    margin-top: 1em;
-    padding: 0.6em 2em;
+.confirm-btn {
+  width: 30%;
+  font-size: 16px;
+  font-weight: 700;
+  background: linear-gradient(to right, #bb86fc, #7300ff);
+  color: #c4c4c4;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 1em;
+  padding: 0.6em 2em;
 }
 
-.number{
-    margin-bottom: 2em;
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.number {
+  margin-bottom: 2em;
 }

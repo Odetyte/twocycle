@@ -4,10 +4,13 @@
   --accent-br: 15px; // border-radius for accents under dates on hover
 
   width: 270px;
+  height: 270px;
+  margin: 0 auto;
 
-  h3{
-    margin-bottom: 50px;
-
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
   }
 
   select {
@@ -82,7 +85,9 @@
     }
 
     &:not(.calendar__date--selected):not(.calendar__date--grey):hover::before {
-      background-color: #ededed;
+      background-color: #7300ff;
+      border-radius: 20px;
+      color: white;
     }
 
     &--grey {
@@ -94,8 +99,8 @@
       color: white;
 
       &::before {
-        background-color: #b4aee8;
-        border-radius: 0px;
+        background-color: #c5c8ca;
+        border-radius: 20px;
       }
     }
 
@@ -131,7 +136,7 @@
       color: #fff;
 
       &::before {
-        box-shadow: 0 15px 20px -3px rgba(129,115,249,1);
+        box-shadow: 0 15px 20px -3px rgba(129, 115, 249, 1);
         background-color: #7300ff;
         border-radius: var(--accent-br);
         z-index: 1;
@@ -166,18 +171,23 @@
 
     &--grey {
       background-color: #f3f4f6;
-      color:#6e7582;
+      color: #6e7582;
     }
 
     &--primary {
       background: linear-gradient(to right, #bb86fc, #7300ff);
-      color:#c4c4c4;
+      color: #c4c4c4;
       transition: box-shadow 0.3s cubic-bezier(0.21, 0.68, 0.09, 0.27),
         transform 0.2s linear;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 16px;
+      font-weight: 700;
+      padding-top: 14px;
 
       &:hover {
-        box-shadow: 0 20px 30px -13px rgba(23, 82, 255, 0.45);
-        transform: translateY(-3px);
+        text-decoration: none;
+        color: white;
       }
 
       &:active {
@@ -186,18 +196,6 @@
       }
     }
   }
-}
-
-body {
-  display: grid;
-  place-items: center;
-  background-color: #eaedf2;
-  height: 100vh;
-  font: {
-    family: "Nunito", sans-serif;
-    size: 14px;
-  }
-  margin: 3vmin;
 }
 
 select,
