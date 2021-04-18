@@ -1,3 +1,4 @@
+@media (max-width: 600px) { 
 .calendar {
   --side-padding: 20px; // padding to be applied to the side of the calendar
   --border-radius: 34px; // border-radius of the main calendar shell
@@ -221,4 +222,5 @@ select {
     repeat: no-repeat;
     position: calc(100% - var(--side-padding)) center;
   }
+}
 }
